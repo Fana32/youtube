@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin: 15px;
+}
+.header{
+    display: flex;
+   background-color: rgb(176, 174, 174);
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+}
+
+.tube {
+    display: flex;
+    gap: 10px;
+}
+
+.you {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right:180px;
+
+}
+.you p{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.bare {
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+}
+.search{
+  margin-top: 40px;
+  display: flex;  
+  gap: 5px;
+  margin-right:  80px;
+  }
+.phone{
+margin-right: 20px;
+ border-radius: 15px;
+}
+.search input{
+width: 400px;
+border-radius: 25px ;
+}
+.menu{
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+.micro{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.plus{
+    border-radius: 25px;
+    height: 45px;
+}
+.cloche{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.user{
+     border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.menu1{
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+    margin-left: 70px;
+}
+.black{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.parole{
+    border-radius: 10px;
+     width: 120px;
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-left: 10px;
+  
+    top: 20px;
+}
+.menu2 p{
+    font-weight: bold;
+}
+.icone i{
+    position: fixed;
+}
+.menu2.texte p{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.video{
+    display: flex;
+    gap: 20px;
+}
+.partie1 {
+    border-radius: 20px;
+    display: flex;
+    margin-top: -300px;
+    margin-left: 80px;
+    margin-right: 50px;
+    gap: 50px;
+}
+.table{
+    border-radius: 20px;
+}
